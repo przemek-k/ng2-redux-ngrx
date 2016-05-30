@@ -6,7 +6,8 @@ import { About } from 'app/components/about/about';
 export const ROUTES: Routes = [
   {
     path: '/',
-    component: SeedApp
+    component: SeedApp,
+    redirectTo: '/home'
   },
   {
     path: '/home',
